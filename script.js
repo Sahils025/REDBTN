@@ -2,8 +2,7 @@ const button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
 
-    button.textContent = "PRESSED
-     <span class="emoji">👍</span>";
+    button.textContent = "PRESSED";
 
     // ✅ vibration FIRST (instant feedback)
     if (navigator.vibrate) {
