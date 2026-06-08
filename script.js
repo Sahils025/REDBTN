@@ -2,9 +2,11 @@ const button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
 
+    button.textContent = "PRESSED";
+
     // ✅ vibration FIRST (instant feedback)
     if (navigator.vibrate) {
-        navigator.vibrate([20, 30, 20]);
+        navigator.vibrate([40, 60, 40]);
     }
 
     button.classList.add("pressed");
