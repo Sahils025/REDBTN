@@ -2,6 +2,11 @@ const button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
 
+    // ✅ vibration FIRST (instant feedback)
+    if (navigator.vibrate) {
+        navigator.vibrate([20, 30, 20]);
+    }
+
     button.classList.add("pressed");
 
     const timestamp = new Date().toLocaleString("en-IN", {

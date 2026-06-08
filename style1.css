@@ -27,11 +27,13 @@ button {
     font-weight: bold;
     box-shadow: 5px 5px 5px 2px #f76565,
      -5px -5px 5px 2px #a93c3c;
+    transition: all 0.5s ease;
 }
 
 .pressed {
     background-color: rgb(19, 206, 19);
     box-shadow: 5px 5px 5px 2px #88ef75,
      -5px -5px 5px 2px #21d138;
+    transform: scale(0.92);
 }
 
