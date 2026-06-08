@@ -16,14 +16,14 @@ body {
 }
 
 button {
-    height: 55vw;
-    width: 55vw;
+    height: 65vw;
+    width: 65vw;
     border-radius: 50%;
     border: 2px solid antiquewhite;
     margin: 0 auto;
     background-color: red;
     color: azure;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: bold;
     box-shadow: 0 0 20px 5px #f76565;
     transition: all 0.5s ease;
