@@ -16,24 +16,22 @@ body {
 }
 
 button {
-    height: 45vw;
-    width: 45vw;
+    height: 55vw;
+    width: 55vw;
     border-radius: 50%;
     border: 2px solid antiquewhite;
     margin: 0 auto;
     background-color: red;
     color: azure;
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: bold;
-    box-shadow: 5px 5px 5px 2px #f76565,
-     -5px -5px 5px 2px #a93c3c;
+    box-shadow: 0 0 20px 5px #f76565;
     transition: all 0.5s ease;
 }
 
 .pressed {
     background-color: rgb(19, 206, 19);
-    box-shadow: 5px 5px 5px 2px #88ef75,
-     -5px -5px 5px 2px #21d138;
+    box-shadow: 0 0 20px 5px #88ef75;
     transform: scale(0.92);
 }
 
